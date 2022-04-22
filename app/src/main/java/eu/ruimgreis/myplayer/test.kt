@@ -15,6 +15,6 @@ class Developer(name: String): Person(name, 30) {
 
 fun test(){
     val d = Developer("Tom")
-    val name = d.name
-    d.name = "Rick"
+    var name = d.name
+    name = "Rick"
 }
